@@ -36,17 +36,4 @@ jobs:
 
 
             - name: Run Tests
-              run: pytest       
-    deploy:
-        runs-on: ubuntu-latest
-
-          steps:
-            - name : Checkout code
-              uses: actions/checkout@v3
-
-            -name: Authenticate to cloud
-
-            -name: Config cloud project
-
-            -name: Dockerize and push
-
+              run: pytest      
