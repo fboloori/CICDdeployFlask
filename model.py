@@ -1,4 +1,5 @@
 # importing required libraries 
+import numpy as np
 import pandas as pd
 import pickle
 from sklearn.preprocessing import StandardScaler
@@ -42,8 +43,9 @@ class MLmodel:
             newx_scaler= self.scaler.fit_transform(newx)
             with open(r"model.pkl", "rb") as input_file:
                 model = pickle.load(input_file)
-            res = model.predict(newx) 
-            return (float(res))
+                
+            res = np.array( model.predict(newx) ,dtype = float) 
+            return (res)
 
 
 
