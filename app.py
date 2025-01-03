@@ -21,7 +21,7 @@ def predict():
             data = request.get_json()
             features = np.array(data["features"]).reshape(1, -1)
             prediction = mlmodel.predict(features)[0]
-            return jsonify({"prediction": prediction})
+            return jsonify({"prediction": float(prediction)})
 
         else:
             # Handle form data input 
@@ -42,7 +42,7 @@ def predict():
             data = np.array([[age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal]] , dtype=float)
             my_prediction = mlmodel.predict(data)[0]
             print(data , my_prediction)
-            return render_template('result.html', prediction=my_prediction)
+            return render_template('result.html', prediction=float(my_prediction))
       
 if __name__=="__main__":
     app.run(debug = True, host="0.0.0.0", port=5000 )      
