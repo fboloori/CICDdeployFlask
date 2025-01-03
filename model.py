@@ -42,9 +42,8 @@ class MLmodel:
             newx_scaler= self.scaler.fit_transform(newx)
             with open(r"model.pkl", "rb") as input_file:
                 model = pickle.load(input_file)
-            res = model.predict(newx)
-            print(res)
-            return (res)
+            res = model.predict(newx) 
+            return (float(res))
 
 
 
