@@ -1,5 +1,7 @@
-<h1>وب اپلیکیشن برای تشخیص دیابت و دپلوی و اینتگریشن مداوم با استفاده از Github actions</h1>
-
+<h1>وب اپلیکیشن برای تشخیص دیابت </h1>
+<h2>
+  دپلوی و اینتگریشن پیوسته با استفاده از Github actions
+</h2>
 <video src="https://github.com/user-attachments/assets/ed82207b-b915-476e-b75c-33d6049fe82e" controls width="100%"></video>
 ساختار پروژه
 پروژه به صورت زیر ساختار بندی شده است:
