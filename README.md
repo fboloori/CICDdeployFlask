@@ -11,11 +11,8 @@
 <li>•	static: پوشه‌ای برای ذخیره فایل‌های استاتیک مانند CSS، JavaScript و تصاویر.</li>
 <li>•	model.pkl: فایل حاوی مدل آموزش دیده یادگیری ماشین.</li>
 <li>•	db.sqlite: پایگاه داده SQLite برای ذخیره اطلاعات کاربران و پیش‌بینی‌ها.</li>
-<h3>
-
-پیش نیازها
-<\h3>
-<li> o	Python<\li>
-<li>o	Flask<\li>
-<li>o	SQLite<\li>
-<li>o	Scikit-learn<\li>
+<h3>پیش نیاز های نصب</h3>
+<li> Python</li>
+<li>	Flask</li>
+<li>	SQLite</li>
+<li> Scikit-learn</li>
