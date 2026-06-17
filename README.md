@@ -1,4 +1,4 @@
-<h1>وب اپلیکیشن درباره تشخیص سرطان سینه با دیتا ست Breast Cancer Wisconsin</h1>
+<h1>وب اپلیکیشن برای تشخیص دیابت و دپلوی و اینتگریشن مداوم با استفاده از Github actions</h1>
 
 <video src="https://github.com/user-attachments/assets/ed82207b-b915-476e-b75c-33d6049fe82e" controls width="100%"></video>
 ساختار پروژه
